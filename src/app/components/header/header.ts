@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faHeart, faSearch, faShoppingCart, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
 const MODULES = [
   FontAwesomeModule
@@ -13,4 +13,7 @@ const MODULES = [
 })
 export class Header {
   faSearch = faSearch;
+  faUserCircle = faUserCircle;
+  faHeart = faHeart;
+  faShoppingCart = faShoppingCart;
 }
