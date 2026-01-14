@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { Header } from '../header/header';
 import { CategoryNavigation } from '../category-navigation/category-navigation';
+import { SideNavigation } from '../side-navigation/side-navigation';
 
 const COMPONENTS = [
   Header,
-  CategoryNavigation
+  CategoryNavigation,
+  SideNavigation
 ]
+
 @Component({
   selector: 'app-home',
   imports: [...COMPONENTS],
